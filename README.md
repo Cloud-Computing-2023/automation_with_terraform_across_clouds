@@ -21,7 +21,7 @@ mkdir aws-terraform-activity
 cd aws-terraform-activity
 Commited code to repo. Created AMI of ec2 instance to use in terraform script to create new ec2 based on this AMI.
 Cloned repo to get terraform script:
-sudo git clone https://github.com/Cloud-Computing-2023/Cloud_Infra_Terraform_All_Prov.git
+sudo git clone https://github.com/Cloud-Computing-2023/automation_with_terraform_across_clouds.git
 -----------------------------------------------------------------------
 lopes-user must have permissions to create resource.
 terraform init ---is mandatory to initiate provider
