@@ -1,5 +1,5 @@
 provider "google" {
-  credentials   = file ("./google_cloud/cloud-2024-418004-0558f8df9059.json")
+  credentials   = file ("cloud-2024-418004-0558f8df9059.json")
   project 	= "cloud-2024-418004"
   region  	= "us-west1"
 }
