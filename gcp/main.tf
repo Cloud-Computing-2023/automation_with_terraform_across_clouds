@@ -1,14 +1,5 @@
-terraform {
-  required_providers {
-    gcp = {
-      source  = "hashicorp/google"
-      version = "~> 4.0"
-    }
-  }
-
-  required_version = ">= 1.2.0"
-}
 provider "google" {
+  credentials   = file ("./google_cloud/cloud-2024-418004-0558f8df9059.json")
   project 	= "cloud-2024-418004"
   region  	= "us-west1"
 }
